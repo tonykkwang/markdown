@@ -29,42 +29,47 @@ HTML不是编程语言，没有逻辑。只是一种标记语言。
 </body>
 </html>
 ```
++ meta 元 主要用来完成对应设置
++ div 布局 占据一行
+`<div></div>`
++ span 布局 不会占据一行
+`<span></span>`
++ h1~h6 标题
+`<hx></hx>`
++ p 段落
+`<p></p>`
++ br 换行
+`<br/>`
++ hr 横线
+`<hr/>`
++ a 链接<br/>
+属性：title=”“ 描述 <br/>
+属性：target=”_blank“ 新页面打开 <br/>
+属性：title=”_self“ 本页面打开 <br/>
+`<a href="http://www.google.com" title="google" target="_blank">google</a>`
++ img 图片 <br/>
+属性： src=”“   源 <br/>
+属性： title=”“ 描述 <br/>
+属性： alt=”“   无法打开时的提示 <br/>
+`<img src="A1.jpg" alt="无法打开时的提示" title="提示"/>`
++ webstrom 注释 crtl+shift+/
++ ul 无须列表
 ```
-<meta> 元，主要用来完成对应设置
-<div></div> 用来布局的，无含义
-<!占据一行>
-<span></span> 用来布局的，无含义
-<!不会占据一行,行内布局>
-<hx></hx>  标题
-<p></p> 段落 =回车
-<br/>   换行
-<hr/>   横线
-<a>  超级链接
-
-<a href="http://www.google.com" title="google" target="_blank">google</a>
-<!title link描述文字>
-<!target="_blank" 新页面打开 >
-<!target="_self" 本页面打开 >
-
-<img src="A1.jpg" alt="无法打开时的提示" title="提示"/>
-<!img src 图片源>
-<!title 提示>
-
-    <!--快捷键 ctrl+shift+/ webstorm-->
-    <!--ul无须列表-->
     <ul>
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ul>
-    <!-ol有序列表-->
+```
++ ol 有序列表
+```
     <ol>
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ol>
-
 ```
+
 ## 3.标签属性
 属性名 = “属性值”
 ```
@@ -72,14 +77,11 @@ HTML不是编程语言，没有逻辑。只是一种标记语言。
         段落段落段落段落段落段落</p>
  ```
 ## 4.单双标签
-单标签：
-***
-1.换行`<br/>`<br/>
-2.水平线`<hr/>`<br/>
-3.图片`<img />`<br/>
-***
-双标签：
-***
+### 单标签：<br/>
++ 换行`<br/>`<br/>
++ 水平线`<hr/>`<br/>
++ 图片`<img />`<br/>
+### 双标签：<br/>
 ```
 <p></p>
 <h1></h1>
